@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AccessibilityProcessKill</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">开机自启动应用列表</string>
+    <string name="accessibility_service_description">点击右上角的按钮，在弹出对话框点击"确定"以开启Accessibility服务</string>
+    <string name="acc_service_name">辅助功能停止APP</string>
+    <string name="title_activity_shadow">ShadowActivity</string>
+    <string name="text_settings_close">强行停止</string>
+    <string name="text_settings_confirm">确定</string>
+
+</resources>

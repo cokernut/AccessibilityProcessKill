@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"   
+    android:id="@+id/layout"   
+    android:layout_width="fill_parent"   
+    android:layout_height="fill_parent" 
+    android:background="@mipmap/bg_kill">
+    
+        <Button
+            android:id="@+id/unfoldButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="返回"
+            />
+
+        <ImageView
+            android:id="@+id/iv_kill_app_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="181dp"
+            android:src="@mipmap/img_rockets" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/iv_kill_app_icon"
+            android:layout_marginBottom="48dp"
+            android:textSize="25dp"
+            android:textColor="#8FBC02"
+            android:text="正在清理进程。。。" />
+   
+</RelativeLayout>
