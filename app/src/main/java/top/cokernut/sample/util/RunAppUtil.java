@@ -21,6 +21,7 @@ public class RunAppUtil {
 	public RunAppUtil(Context mContext) {
 		super();
 		this.mContext = mContext;
+		mPackageManager = mContext.getPackageManager();
 	}
 
 	public List<RunningAppInfo> getRunApps() {
@@ -33,7 +34,6 @@ public class RunAppUtil {
 
 	//API20及以下
 	public List<RunningAppInfo> getRunAppsOld() {
-		mPackageManager = mContext.getPackageManager();
 		// 查询所有已经安装的应用程序
 		List<ApplicationInfo> listAppcations = mPackageManager.getInstalledApplications(PackageManager.GET_UNINSTALLED_PACKAGES);
 		Collections.sort(listAppcations, new ApplicationInfo.DisplayNameComparator(mPackageManager));

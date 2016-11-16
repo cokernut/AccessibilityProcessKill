@@ -45,11 +45,6 @@
             android:enabled="true"
             android:exported="true" >
         </service>
-        <service
-            android:name="top.cokernut.sample.service.FloatWindowService"
-            android:enabled="true"
-            android:exported="true" >
-        </service>
     </application>
 
 </manifest>
