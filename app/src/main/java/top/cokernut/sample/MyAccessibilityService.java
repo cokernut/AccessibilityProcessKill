@@ -47,6 +47,7 @@ public class MyAccessibilityService extends AccessibilityService {
 						code = CLOSE;
 						break;
 					default:
+						code = CLOSE;
 						break;
 				}
 			}
